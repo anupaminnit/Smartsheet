@@ -1,4 +1,4 @@
-# read adn write data in smartsheet from excel sheet
+# read and write data in smartsheet from excel sheet
 Node.js sample application that loads a sheet, updates selected cells, and saves the results
 
 This is a minimal Smartsheet sample that demonstrates how to
