@@ -1,4 +1,4 @@
-# node-read-write-sheet
+# read adn write data in smartsheet from excel sheet
 Node.js sample application that loads a sheet, updates selected cells, and saves the results
 
 This is a minimal Smartsheet sample that demonstrates how to
@@ -18,11 +18,7 @@ This is implemented in the `evaluate_row_and_build_updates()` method which you s
 
 * Obtain your API access token obtained from the Smartsheet Account button, under Personal settings and set the SMARTSHEET_ACCESS_TOKEN environment variable with the token. 
 
-* Run the application using your preferred IDE or at the command line with `node node-read-write-sheet.js`
+* Run the application using your preferred IDE or at the command line with `node index.js`
 
 The rows marked "Complete" will have the "Remaining" value set to 0. (Note that you will have to refresh in the desktop application to see the changes)
 
-## See also
-- http://smartsheet-platform.github.io/api-docs/
-- https://github.com/smartsheet-platform/smartsheet-javascript-sdk
-- https://www.smartsheet.com/
